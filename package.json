@@ -1,0 +1,36 @@
+{
+	"name": "hello-ahmad",
+	"version": "0.0.1",
+	"type": "module",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^3.0.0",
+		"@sveltejs/kit": "^2.0.0",
+		"@sveltejs/vite-plugin-svelte": "^4.0.0",
+		"@tsconfig/svelte": "^5.0.4",
+		"@types/jquery": "^3.5.32",
+		"@types/summernote": "^0.8.10",
+		"svelte": "^5.0.0",
+		"svelte-check": "^4.0.9",
+		"typescript": "^5.6.3",
+		"vite": "^5.0.3"
+	},
+	"dependencies": {
+		"bootstrap": "^5.3.3",
+		"cors": "^2.8.5",
+		"express": "^4.21.1",
+		"fs": "^0.0.1-security",
+		"jquery": "^3.7.1",
+		"mongoose": "^8.8.2",
+		"multer": "^1.4.5-lts.1",
+		"path": "^0.12.7",
+		"summernote": "^0.9.1",
+		"svelte-routing": "^2.13.0"
+	}
+}
